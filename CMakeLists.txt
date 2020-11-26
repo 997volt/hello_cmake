@@ -1,7 +1,4 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.18)
+project(Hello VERSION 1.0)
 
-# set the project name
-project(Tutorial)
-
-# add the executable
-add_executable(Tutorial tutorial.cxx)
+add_executable(cmake-good main.cpp)
