@@ -1,10 +1,7 @@
 #include <stdio.h>
+#include "hello.h"
 
 int main()
 {
-    int user_number;
-    printf("Hello CMake in C\n");
-    scanf("%d", &user_number);
-
-    return 0;
+    return hello::say_hello();
 }
