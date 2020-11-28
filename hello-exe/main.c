@@ -1,4 +1,4 @@
-#include "hello.h"
+#include <say-hello/hello.h>
 
 int main()
 {
